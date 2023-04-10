@@ -43,8 +43,8 @@ playero2.rollAttributes();
 playero2.printPlayer();
 
 /* Fisher-Yates algorithm for randomly sorting an array
-from: https://dev.to/codebubb/how-to-shuffle-an-array-in
--javascript-2ikj adapted to JS and reconfigured to return
+from: https://dev.to/codebubb/how-to-shuffle-an-array-in-javascript-2ikj 
+adapted to JS and reconfigured to return
 a new (non-mutated) array */
 function shuffleArray(targetArray){
     let shuffled = Array.from(targetArray);
